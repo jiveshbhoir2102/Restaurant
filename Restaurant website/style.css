@@ -1,0 +1,563 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Hero Section */
+  #hero {
+    height: 100vh;
+    background: url('Images/Restaurant\ Pic.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+  }
+  .container-0 h1{
+    font-size: 40px;
+    animation: bounce 8s ease-in infinite;
+  }
+  .container-0 p{
+    font-size: 19px;
+  }
+  
+  /* Headings */
+  h1, h2, h5 {
+    font-weight: 700;
+  }
+  
+  /* About */
+  .container h2{
+    color: #cf711f;
+    font-size: 30px;
+    transform: translateY(-100%);
+    animation: slideDown 5s ease-in  infinite;
+  }
+  .container p{
+    color: navy;
+    animation: float 5s infinite;
+  }
+  /* Menu */
+  .container-1 h2{
+    color: deeppink;
+    font-size: 30px;
+    animation: zoomIn 5s ease-in infinite;
+  }
+  .cardshadow{
+    border:2px solid;
+    margin-left: 7px;
+    margin-right: 8px;
+    text-align: center;
+    border-radius: 10px;
+  
+  }
+  .cardshadow:hover{
+    animation:float 2s ;
+    box-shadow: 0px 5px 10px 0px black;
+  }
+  
+  /* Section padding */
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #e67e22;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #cf711f;
+  }
+
+  /* Booking Order Section */
+
+  .book-Order {
+    padding: 60px 20px;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container-6 {
+    max-width: 600px;
+    margin: auto;
+    background: black;
+    padding: 30px;
+    animation: float 1s ease-in infinite;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Input & Textarea Styling */
+  input[type="text-1"],
+  input[type="email-1"],
+  input[type="number-1"],
+  textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid navy;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: navy;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button[type="submit1"] {
+    display: block;
+    width: 50%;
+    margin-left: 120px;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button[type="submit1"]:hover {
+    background-color: darkgreen;
+  }
+
+  /* Service Section */
+  .container-2{
+    background-color: black;
+    color: aquamarine;
+  }
+  .container-2 h1{
+    font-size: 40px;
+    animation: blink 3s ease-out infinite;
+  }
+  .container-2 h2{
+    font-style: italic;
+    color: aliceblue;
+    animation: slideUp 3s ease-out infinite;
+  }
+  .card {
+    width: 200px;
+    margin: auto;
+  }
+  .car{
+    width: 300px;
+    margin: auto;
+    animation: float 4s infinite;
+    box-shadow:  0px 5px 10px 3px red;
+    margin-bottom: 12px;
+  }
+  .car h5{
+    font-size: 25px;
+    animation: blink 5s infinite;
+  }
+  .card:hover{
+    box-shadow: 2px 5px 10px 3px navy;
+    margin-bottom: auto;
+  }
+  /* Contact Section */
+  .container5 h2{
+    color: wheat;
+    font-size: 29px;
+
+  }
+  .container5 p{
+  
+    font-size: 15px;
+  }
+
+  /* Contact Form */
+
+  .container-7 {
+    max-width: 600px;
+    margin: auto;
+    background: black;
+    padding: 30px;
+    animation: zoomIn 5s ease-out infinite;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  p {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Input & Textarea Styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid navy;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: navy;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button[type="submit"] {
+    display: block;
+    width: 50%;
+    margin-left: 120px;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: navy;
+  }
+
+
+  /* Footer */
+  .footer p {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Veg container */
+
+  .veg-container {
+    background: linear-gradient(to bottom, black, deeppink);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .veg-container .card1 {
+    border: 2px white solid;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    width: 300px; /* Default width for larger screens */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .veg-container .card1:hover {
+    box-shadow: 0px 5px 10px 3px coral;
+    animation: float 1s ease-in;
+  }
+
+  /* Non-veg Container */
+
+  .Non-Veg-container{
+    background:linear-gradient(to bottom, aquamarine, yellow);
+ padding: 30px 15px;
+}
+
+/* Section Title */
+.Non-Veg-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: navy;
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.card2 {
+  border: 2px solid navy;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Card Hover Animation */
+.card2:hover {
+  box-shadow: 0px 5px 10px 0px black;
+  transform: translateY(-5px);
+  animation: float 1s ease-in;
+}
+
+/* Card Images */
+.card2 img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Card Text */
+.card2 .card-body {
+  padding: 15px;
+}
+
+.card2 .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+  /* Animation */
+  @keyframes float {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  .slide-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideUp 1s ease forwards;
+  }
+  @keyframes slideDown {
+    to {
+      transform: translateY(0);
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-100px);
+    }
+    60% {
+      transform: translateY(-50px);
+    }
+  }
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes zoomOut {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /*Responsive Code */
+ /* ---------- Small Devices: Mobile Phones ---------- */
+@media (max-width: 576px) {
+
+  /* Hero Section */
+  #hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-attachment: scroll;
+  }
+
+  .container-0 h1 {
+    font-size: 26px;
+  }
+
+  .container-0 p {
+    font-size: 16px;
+  }
+
+  /* Headings */
+  .container h2,
+  .container-1 h2,
+  .container-2 h1,
+  .container-2 h2,
+  .container5 h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  /* Cards */
+  .card,
+  .card1,
+  .card2 {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .veg-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .veg-container .card1 {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .card2 img {
+    height: 180px;
+  }
+
+  .card2 .card-title {
+    font-size: 1rem;
+  }
+
+  /* Forms */
+  .container-6,
+  .container-7 {
+    padding: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    font-size: 0.95rem;
+  }
+
+  /* Buttons */
+  button[type="submit"],
+  button[type="submit1"] {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h1,
+  p {
+    font-size: 1.5rem;
+  }
+
+  .container-2 h1,
+  .container-2 h2 {
+    font-size: 24px;
+  }
+}
+
+/* ---------- Medium Devices: Tablets ---------- */
+@media (min-width: 577px) and (max-width: 768px) {
+
+  .container-0 h1 {
+    font-size: 32px;
+  }
+
+  .container-0 p {
+    font-size: 17px;
+  }
+
+  .card,
+  .card1,
+  .card2 {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .veg-container .card1 {
+    width: 90%;
+  }
+
+  .card2 img {
+    height: 200px;
+  }
+
+  .card2 .card-title {
+    font-size: 1.1rem;
+  }
+
+  .Non-Veg-container h2 {
+    font-size: 2rem;
+  }
+
+  .container-6,
+  .container-7 {
+    padding: 25px;
+  }
+
+  button[type="submit"],
+  button[type="submit1"] {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/* ---------- Large Devices: Desktop & Larger ---------- */
+@media (min-width: 769px) {
+
+  .card,
+  .card1,
+  .card2 {
+    width: 300px;
+  }
+
+  .container-6,
+  .container-7 {
+    max-width: 600px;
+  }
+
+  button[type="submit"],
+  button[type="submit1"] {
+    width: 50%;
+    margin-left: 120px;
+  }
+}
+
